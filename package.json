@@ -1,0 +1,7 @@
+{
+  "name": "rcc-vercel-wrapper",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf rcc-site && unzip -q religious-cognition-collaborative-site.zip && cd rcc-site && npm ci && npm run build"
+  }
+}
