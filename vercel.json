@@ -1,0 +1,5 @@
+{
+  "buildCommand": "rm -rf rcc-site && unzip -q religious-cognition-collaborative-site.zip && cd rcc-site && npm ci && npm run build",
+  "outputDirectory": "rcc-site/out",
+  "installCommand": "echo Dependencies are installed during the build step"
+}
